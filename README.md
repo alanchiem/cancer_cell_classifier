@@ -1,4 +1,4 @@
-# Classifying Human Cells to Detect Cancer
+# Classifying Human Cells to Detect Cancer (test)
 
 Given human cell records, I used SVMs (Support Vector Machines) to train a model to classify cells on whether they are benign or malignant.
 
@@ -8,18 +8,18 @@ Language/Tools: Python, SciKit Learn, Matplotlib, Pandas, Numpy
 
 ## Purpose
 
-Kernelling is the mapping of data into a higher dimensional space to make it linearly separable. SciKit Learn has a few different kernel functions to choose from such as linear, poly, rbf, or sigmoid. 
+Kernelling is the mapping of data into a higher dimensional space to make it linearly separable. SciKit Learn has a few different kernel functions to choose from such as linear, poly, rbf, or sigmoid.
 
 My goal is to test the accuracy of each of these functions by comparing their confusion matrix, f1-score, and jaccard-index.
 
 ## Results
 
-I split the dataset into train and test sets (80/20). The SVMs were trained with 546 samples and tests were run with 137 samples. 
+I split the dataset into train and test sets (80/20). The SVMs were trained with 546 samples and tests were run with 137 samples.
 
 ### Confusion Matrix
 
 The first row of the matrix is for cells that are actually benign.  
-We can see that the SVM with a linear kernel function is able to correctly predict 85 as benign but mislabeled 5 as malignant. 
+We can see that the SVM with a linear kernel function is able to correctly predict 85 as benign but mislabeled 5 as malignant.
 
 The second row is for cells that are actually malignant.  
 The SVMs with a linear, polynomial, and radial basis function were able to fully identify every malignant cell.

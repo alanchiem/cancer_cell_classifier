@@ -64,7 +64,3 @@ The Jaccard Index, or Jaccard Similarity, is simply the size of the intersection
 F1-Score          |  Jaccard Index
 :-------------------------:|:-------------------------:
 <img width="583" alt="f1_scores" src="https://github.com/alanchiem/coding_practice/assets/62784950/3dec4088-b6f3-4887-bad2-94ec944c768a"> |  <img width="583" alt="jaccard_scores" src="https://github.com/alanchiem/coding_practice/assets/62784950/c8caa804-c9c3-43e1-9b16-acc8908a2621">
-
-
-# sign_language
-# cancer_cell_classifier

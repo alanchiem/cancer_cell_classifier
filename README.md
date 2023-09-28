@@ -1,4 +1,4 @@
-# Classifying Human Cells to Detect Cancer (test)
+# Classifying Human Cells to Detect Cancer
 
 Given human cell records, I used SVMs (Support Vector Machines) to train a model to classify cells on whether they are benign or malignant.
 
